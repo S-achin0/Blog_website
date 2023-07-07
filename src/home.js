@@ -5,7 +5,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
    
-   const{data:blogs,ispending,error}=useFetch(' http://localhost:8000/blogs');
+   const{data:blogs,ispending,error}=useFetch(' https://s-achin0.github.io/customer.json');
    
     
   
