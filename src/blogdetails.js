@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const  BlogDetails= () => {
     const {id}=useParams();
-    const{data :blog,error,ispending}=useFetch(  "http://localhost:8000/blogs/"+id);
+    const{data :blog,error,ispending}=useFetch(  " https://s-achin0.github.io/customer.json/"+id);
     return ( 
 <div className="blog_details">
      {ispending&&<div>Loading...</div>}
