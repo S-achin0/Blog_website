@@ -10,7 +10,7 @@ const Create = () => {
         e.preventDefault();
         const blog={tiltle,body,author};
         setispending(true)
-        fetch('http://localhost:8000/blogs',{
+        fetch(' https://s-achin0.github.io/customer.json',{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify(blog)
